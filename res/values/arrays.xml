@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="expSelect">
+        <item>@string/itemExpSelect11</item>
+        <item>@string/itemExpSelect12</item>
+        <item>@string/itemExpSelect13</item>
+        <item>@string/itemExpSelect14</item>
+        <item>@string/itemExpSelect15</item>
+        <item>@string/itemExpSelect21</item>
+        <item>@string/itemExpSelect22</item>
+        <item>@string/itemExpSelect23</item>
+        <item>@string/itemExpSelect24</item>
+        <item>@string/itemExpSelect25</item>
+        <item>@string/itemExpSelect31</item>
+        <item>@string/itemExpSelect32</item>
+        <item>@string/itemExpSelect33</item>
+        <item>@string/itemExpSelect34</item>
+        <item>@string/itemExpSelect35</item>
+        <item>@string/itemExpSelect41</item>
+        <item>@string/itemExpSelect42</item>
+        <item>@string/itemExpSelect43</item>
+        <item>@string/itemExpSelect44</item>
+        <item>@string/itemExpSelect51</item>
+        <item>@string/itemExpSelect52</item>
+        <item>@string/itemExpSelect53</item>
+        <item>@string/itemExpSelect54</item>
+        <item>@string/itemExpSelect55</item>
+        <item>@string/itemExpSelect61</item>
+        <item>@string/itemExpSelect62</item>
+        <item>@string/itemExpSelect63</item>
+        <item>@string/itemExpSelect64</item>
+    </string-array>
+    <string-array name="expSAWin">
+        <item>@string/itemExpSAWin1</item>
+        <item>@string/itemExpSAWin2</item>
+    </string-array>
+
+</resources>

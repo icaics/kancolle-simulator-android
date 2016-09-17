@@ -1,0 +1,49 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.actionbartest.RaidListActivity" >
+
+    <group android:checkableBehavior="single" >
+        <item
+            android:id="@+id/menuRaidMapOrderByID"
+            android:orderInCategory="1"
+            android:showAsAction="never"
+            android:title="@string/menuRaidOrderByID"/>
+        <item
+            android:id="@+id/menuRaidMapOrderByIDDesc"
+            android:orderInCategory="1"
+            android:showAsAction="never"
+            android:title="@string/menuRaidOrderByIDDesc"/>
+        <item
+            android:id="@+id/menuRaidMapOrderByTime"
+            android:orderInCategory="1"
+            android:showAsAction="never"
+            android:title="@string/menuRaidOrderByTime"/>
+        <item
+            android:id="@+id/menuRaidMapOrderByTimeDesc"
+            android:orderInCategory="1"
+            android:showAsAction="never"
+            android:title="@string/menuRaidOrderByTimeDesc"/>
+        
+        <item
+            android:id="@+id/menuRaidMapOrderByOilPerM"
+            android:orderInCategory="1"
+            android:showAsAction="never"
+            android:title="@string/menuRaidOrderByOilPerM"/>
+        <item
+            android:id="@+id/menuRaidMapOrderByAmmoPerM"
+            android:orderInCategory="1"
+            android:showAsAction="never"
+            android:title="@string/menuRaidOrderByAmmoPerM"/>
+        <item
+            android:id="@+id/menuRaidMapOrderBySteelPerM"
+            android:orderInCategory="1"
+            android:showAsAction="never"
+            android:title="@string/menuRaidOrderBySteelPerM"/>
+        <item
+            android:id="@+id/menuRaidMapOrderByAlPerM"
+            android:orderInCategory="1"
+            android:showAsAction="never"
+            android:title="@string/menuRaidOrderByAlPerM"/>
+    </group>
+
+</menu>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.icaics.kancollesimulator"
+    android:versionCode="15"
+    android:versionName="1.2.3" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19" />
+
+    <!-- 权限申请 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/appName"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.icaics.kancollesimulator.activity.MainActivity"
+            android:label="@string/titleMainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <!-- 舰娘黄历 -->
+        <activity
+            android:name="com.icaics.kancollesimulator.activity.AlmanacActivity"
+            android:label="@string/titleAlmanacActivity" >
+        </activity>
+        
+		<!-- 改修助手 -->
+        <activity
+            android:name="com.icaics.kancollesimulator.activity.ModifyFactoryActivity"
+            android:label="@string/titleModifyFactoryActivity" >
+        </activity>
+
+        <!-- 经验计算工具 -->
+        <activity
+            android:name="com.icaics.kancollesimulator.activity.ExpCalculatorActivity"
+            android:label="@string/titleExpCalculatorActivity"
+            android:windowSoftInputMode="stateVisible" >
+        </activity>
+
+        <!-- 出击地图 -->
+        <activity
+            android:name="com.icaics.kancollesimulator.activity.AttackListActivity"
+            android:label="@string/titleAttackListActivity" >
+        </activity>
+
+        <!-- 出击编成 -->
+        <activity
+            android:name="com.icaics.kancollesimulator.activity.AttackFormationActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+        </activity>
+
+        <!-- 远征地图 -->
+        <activity
+            android:name="com.icaics.kancollesimulator.activity.RaidListActivity"
+            android:label="@string/titleRaidListActivity" >
+        </activity>
+
+        <!-- 远征编成 -->
+        <activity
+            android:name="com.icaics.kancollesimulator.activity.RaidFormationActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+        </activity>
+
+        <!-- 舰种选择列表 -->
+        <activity
+            android:name="com.icaics.kancollesimulator.listactivity.ListActivityShipClassSelect"
+            android:label="@string/titleListActivityShipClassSelect" >
+        </activity>
+
+        <!-- 舰船选择列表 -->
+        <activity
+            android:name="com.icaics.kancollesimulator.listactivity.ListActivityShipSelect"
+            android:label="@string/titleListActivityShipSelect" >
+        </activity>
+
+        <!-- 装备选择列表 -->
+        <activity
+            android:name="com.icaics.kancollesimulator.activity.EquipSelectActivity"
+            android:label="@string/titleEquipSelect" >
+        </activity>
+
+        <!-- 远征编成读取 -->
+        <activity
+            android:name="com.icaics.kancollesimulator.activity.FormationRaidActivity"
+            android:label="@string/titleFormationRaidActivity" >
+        </activity>
+
+        <!-- 出击编成读取 -->
+        <activity
+            android:name="com.icaics.kancollesimulator.activity.FormationAttackActivity"
+            android:label="@string/titleFormationAttackActivity" >
+        </activity>
+
+        <!-- 关于 -->
+        <activity
+            android:name="com.icaics.kancollesimulator.activity.AboutActivity"
+            android:label="@string/titleAboutActivity" >
+        </activity>
+
+        <!-- 社会化分享 -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="54696d34fd98c5a4aa004c57" />
+
+        <!-- 渠道代码 -->
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="0" />
+
+        <!-- 自动更新 -->
+        <service
+            android:name="com.umeng.update.net.DownloadingService"
+            android:process=":DownloadingService" >
+        </service>
+
+        <activity
+            android:name="com.umeng.update.UpdateDialogActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+
+        <!-- 分享对话框 -->
+        <activity
+            android:name="com.umeng.socialize.view.ShareActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:theme="@style/Theme.UMDialog"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+
+        <!-- 微信分享 -->
+        <activity
+            android:name="com.icaics.kancollesimulator.wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!-- QQ分享 -->
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTask"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="tencent1103496276" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+    </application>
+
+</manifest>

@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.actionbartest.MainActivity" >
+
+    <group android:checkableBehavior="single" >
+        <item
+            android:id="@+id/menuShipSelectAll"
+            android:orderInCategory="1"
+            android:showAsAction="never"
+            android:title="@string/menuShipSelectAll"/>
+        <item
+            android:id="@+id/menuShipSelectKai"
+            android:orderInCategory="1"
+            android:showAsAction="never"
+            android:title="@string/menuShipSelectKai"/>
+    </group>
+
+</menu>

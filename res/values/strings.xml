@@ -1,0 +1,178 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<resources>
+    
+    <string name = "desc"></string>
+    
+    <!-- 版本号每次修改 -->
+    <string name="menuAbout">关于</string>
+    <string name="textAboutName">舰娘模拟器</string>
+    <string name="textAboutNameEN">KanColleSimulator</string>
+    <string name="textAboutVersion">程序版本：1.2.3</string>
+    <string name="textAboutDatabaseVersion">数据版本：</string>
+    <string name="textAboutIntroduce">本程序为“艦これ”游戏提供舰队出击/远征配置模拟、保存、分享等功能；代码水平不高，如有问题，请随时反馈；东方同人游戏：AV794141</string>
+    <string name="textAboutDeveloper">程序开发 图标设计：菜酱</string>
+    <string name="textAboutAssist">协力：猫叔、黄天源MK5</string>
+    <string name="textAboutDataSource">数据来源：艦隊これくしょん -艦これ- 攻略 Wiki*</string>
+    <string name="textAboutWeibo">微博：@菜酱</string>
+    <string name="textAboutMailbox">问题反馈：icaics@126.com</string>
+    <string name="textAboutPay">捐助：yhg000@126.com</string>
+    <string name="toastAboutCopied">支付宝地址已复制</string>
+
+    <string name = "appName">舰娘模拟器</string>
+    <string name = "titleMainActivity">舰娘模拟器</string>
+    <string name = "titleAlmanacActivity">舰娘黄历</string>
+    <string name = "titleModifyFactoryActivity">改修助手</string>
+    <string name = "titleExpCalculatorActivity">经验计算器</string>
+    <string name = "titleAttackListActivity">海域列表</string>
+    <string name = "titleRaidListActivity">远征列表</string>
+    <string name = "titleListActivityShipClassSelect">舰种选择</string>
+    <string name = "titleListActivityShipSelect">舰娘选择</string>
+    <string name = "titleEquipSelect">装备选择</string>
+    <string name = "titleFormationRaidActivity">读取远征舰队</string>
+    <string name = "titleFormationAttackActivity">读取出击舰队</string>
+    <string name = "titleAboutActivity">关于</string>
+    
+    <string name = "textNoData">暂无舰队编成数据</string>
+    <string name = "toastPicturing">正在进行截图</string>
+    
+    <string name = "textFormationFleetFormation">编成</string>
+    <string name = "textFormationFleetLv">等级</string>
+    <string name = "textEnterRaidFormationName">请输入远征舰队名称</string>
+    <string name = "textEnterAttackFormationName">请输入出击舰队名称</string>
+    
+    <string name = "textDataBaseVersion">当前数据库版本</string>
+    <string name = "btnShare">分享</string>
+    <string name = "textLv">Lv</string>
+    <string name = "textPleaseSelect"> 添加</string>
+    <string name = "textClear"> 删</string>
+    <string name = "btnSaveFormation">保存配置</string>
+    <string name = "toastSaveSucceed">保存成功</string>
+    <string name = "toastSaveFailed">保存失败</string>
+    <string name = "textSavedName">舰队名称：</string>
+    <string name = "ok">确定</string>
+    <string name = "cancel">取消</string>
+    <string name = "deleteSucceed">删除成功</string>
+    <string name = "deleteFailed">删除失败</string>
+    <string name = "textNewFormation">公共配置</string>
+    <string name = "toastOneShipLeast">请至少编入一位舰娘</string>
+    
+    <string name = "toastShareOK">分享成功</string>
+    <string name = "toastShareFailed">分享失败 错误代码：</string>
+    
+    <string name = "btnMapAttack">海域地图</string>
+    <string name = "btnMapRaid">远征列表</string>
+    <string name = "btnFormationAttack">出击配置</string>
+    <string name = "btnFormationRaid">远征配置</string>
+    <string name = "btnAlmanacActivity">舰娘黄历</string>
+    <string name = "btnModifyFactoryActivity">改修助手</string>
+    <string name = "btnExpCalculator">经验计算</string>
+    <string name = "menuCheckUpdate">检查更新</string>
+    <string name = "toastNoUpdate">没有更新</string>
+    <string name = "toastUpdateTimeOut">联网超时</string>
+    <string name = "shareTitle">分享</string>
+    
+    <string name = "textStartLevel">舰娘当前等级</string>
+    <string name = "editStartLevelInput">距离下级经验</string>
+    <string name = "textEndLevel">目标等级</string>
+    <string name = "chkIsFlag">旗舰</string>
+    <string name = "chkIsMvp">MVP</string>
+    <string name = "textExpNeeded">所需经验</string>
+    <string name = "textAttackNeeded">所需出击次数</string>
+    <string name = "btnCalculateExp">计算</string>
+    <string name = "toastExpLevelError">等级输入错误</string>
+    <string name = "toastExpExpError">距离下级经验输入错误</string>
+    <string name = "toastExpMarry">结婚吧！提督！</string>
+    <string name = "toastExpMarryTextView">戒指买买买！</string>
+    <string name = "toastExpLevelTop">肝帝你好！</string>
+    <string name = "toastExpLevelTopTextView">你是指环王吗？</string>
+    <string name = "toastExpEmpty">请填写所有内容</string>
+    <string name = "toastExpShareFailed">请先进行计算</string>
+    <string name = "toastExp15">80级以上的反舰导弹你怕不怕</string>
+    <string name = "toastExp55">5–5练级给跪了</string>
+
+    <string name = "itemExpSAWin1">S胜</string>
+    <string name = "itemExpSAWin2">A胜</string>
+    <string name = "itemExpSelect11">1–1 鎮守府正面海域近海警備</string>
+    <string name = "itemExpSelect12">1–2 南西諸島沖警備</string>
+    <string name = "itemExpSelect13">1–3 製油所地帯海上護衛作戦</string>
+    <string name = "itemExpSelect14">1–4 南1号作戦</string>
+    <string name = "itemExpSelect15">1–5 鎮守府近海対潜哨戒</string>
+    <string name = "itemExpSelect21">2–1 カムラン半島カ号迎撃戦</string>
+    <string name = "itemExpSelect22">2–2 バシー島沖柳輸送作戦</string>
+    <string name = "itemExpSelect23">2–3 東部オリョール海01号作戦</string>
+    <string name = "itemExpSelect24">2–4 沖ノ島海域あ号艦隊決戦</string>
+    <string name = "itemExpSelect25">2–5 沖ノ島沖戦闘哨戒</string>
+    <string name = "itemExpSelect31">3–1 モーレイ海哨戒</string>
+    <string name = "itemExpSelect32">3–2 キス島撤退作戦</string>
+    <string name = "itemExpSelect33">3–3 アルフォンシーノ方面進出</string>
+    <string name = "itemExpSelect34">3–4 北方海域艦隊決戦</string>
+    <string name = "itemExpSelect35">3–5 北方AL海域戦闘哨戒</string>
+    <string name = "itemExpSelect41">4–1 ジャム島攻略作戦</string>
+    <string name = "itemExpSelect42">4–2 カレー洋制圧戦</string>
+    <string name = "itemExpSelect43">4–3 リランカ島空襲</string>
+    <string name = "itemExpSelect44">4–4 カスガダマ沖海戦</string>
+    <string name = "itemExpSelect51">5–1 南方海域進出作戦</string>
+    <string name = "itemExpSelect52">5–2 珊瑚諸島沖海戦</string>
+    <string name = "itemExpSelect53">5–3 第一次サーモン沖海戦</string>
+    <string name = "itemExpSelect54">5–4 サーモン海域東京急行</string>
+    <string name = "itemExpSelect55">5–5 第二次サーモン海戦</string>
+    <string name = "itemExpSelect61">6–1 中部海域哨戒線潜水艦作戦</string>
+    <string name = "itemExpSelect62">6–2 MS諸島防衛戦</string>
+    <string name = "itemExpSelect63">6–3 K作戦</string>
+    <string name = "itemExpSelect64">6–4 離島再攻略作戦</string>
+    
+    <string name = "textRaidFlagLv">旗舰等级</string>
+    <string name = "textRaidFleetLv">舰队等级</string>
+    <string name = "textRaidTime">时间</string>
+    <string name = "textRaidShipRequire">舰队编成</string>
+    <string name = "textRaidEquir">装备要求</string>
+    <string name = "textRaidOil">燃料</string>
+    <string name = "textRaidAmmo">弹药</string>
+    <string name = "textRaidSteel">钢材</string>
+    <string name = "textRaidAl">铝土</string>
+    
+    <string name = "menuRaidOrderByID">按序号排列</string>
+    <string name = "menuRaidOrderByIDDesc">按序号排列（倒序）</string>
+    <string name = "menuRaidOrderByTime">按耗时排列</string>
+    <string name = "menuRaidOrderByTimeDesc">按耗时排列（倒序）</string>
+    <string name = "menuRaidOrderByOilPerM">按燃料/分钟收益</string>
+    <string name = "menuRaidOrderByAmmoPerM">按弹药/分钟收益</string>
+    <string name = "menuRaidOrderBySteelPerM">按钢材/分钟收益</string>
+    <string name = "menuRaidOrderByAlPerM">按铝土/分钟收益</string>
+    <string name = 'textDeleteRaidFormation'>删除远征舰队</string>
+    
+    <string name = 'textDeleteAttackFormation'>删除出击舰队</string>
+    
+    <string name = "textAirControlNeeded">深海制空</string>
+    <string name = "textFleetAirControl">舰队</string>
+    <string name = "textFleetSearch">舰队索敌</string>
+    <string name = "menuAirControlNormal">无熟练度</string>
+    <string name = "menuAirControlAce">满熟练度</string>
+    
+    <string name="menuShipSelectAll">显示全部舰娘</string>
+    <string name="menuShipSelectKai">仅显示改装舰娘</string>
+    
+    <string name = "btnStartRaid">远征出发</string>
+    <string name = "btnReset">重置</string>
+    
+    <string name = "shareExp1">#舰娘模拟器# 【经验计算器】出击海域：</string>
+    <string name = "shareExp2">；舰娘等级：</string>
+    <string name = "shareExp3">；距下一等级所差经验：</string>
+    <string name = "shareExp4">；目标等级：</string>
+    <string name = "shareExp5">；所需经验：</string>
+    <string name = "shareExp6">；还需要再刷 </string>
+    <string name = "shareExp7"> 次 </string>
+    
+    <string name = "shareFormation1">#舰娘模拟器# 【编成模拟：</string>
+    <string name = "shareFormation2">】</string>
+    <string name = "shareFormation3">；</string>
+    
+    <string name = "menuModifyFactory1">星期一</string>
+    <string name = "menuModifyFactory2">星期二</string>
+    <string name = "menuModifyFactory3">星期三</string>
+    <string name = "menuModifyFactory4">星期四</string>
+    <string name = "menuModifyFactory5">星期五</string>
+    <string name = "menuModifyFactory6">星期六</string>
+    <string name = "menuModifyFactory7">星期日</string>
+    
+</resources>

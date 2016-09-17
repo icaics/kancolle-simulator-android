@@ -1,0 +1,44 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.actionbartest.RaidListActivity" >
+
+    <group android:checkableBehavior="single" >
+        <item
+            android:id="@+id/menuModifyFactory1"
+            android:orderInCategory="1"
+            android:showAsAction="never"
+            android:title="@string/menuModifyFactory1"/>
+        <item
+            android:id="@+id/menuModifyFactory2"
+            android:orderInCategory="1"
+            android:showAsAction="never"
+            android:title="@string/menuModifyFactory2"/>
+        <item
+            android:id="@+id/menuModifyFactory3"
+            android:orderInCategory="1"
+            android:showAsAction="never"
+            android:title="@string/menuModifyFactory3"/>
+        <item
+            android:id="@+id/menuModifyFactory4"
+            android:orderInCategory="1"
+            android:showAsAction="never"
+            android:title="@string/menuModifyFactory4"/>
+        <item
+            android:id="@+id/menuModifyFactory5"
+            android:orderInCategory="1"
+            android:showAsAction="never"
+            android:title="@string/menuModifyFactory5"/>
+        
+        <item
+            android:id="@+id/menuModifyFactory6"
+            android:orderInCategory="1"
+            android:showAsAction="never"
+            android:title="@string/menuModifyFactory6"/>
+        <item
+            android:id="@+id/menuModifyFactory7"
+            android:orderInCategory="1"
+            android:showAsAction="never"
+            android:title="@string/menuModifyFactory7"/>
+    </group>
+
+</menu>
